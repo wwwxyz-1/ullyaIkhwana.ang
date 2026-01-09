@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CV – Mahasiswa Manajemen Informasi Kesehatan</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="wrap">
+      <article class="card">
+        <!-- Foto -->
+        <aside class="left">
+          <div class="avatar">
+            <img src="img/wana.jpg" alt="Foto Profil" />
+          </div>
+
+          <div class="identity">
+            <div class="name">Ullya Ikhwana</div>
+            <div class="role">Mahasiswa Manajemen Informasi Kesehatan</div>
+          </div>
+
+          <div class="btn-group">
+            <button class="btn primary" id="btn-download">Download CV</button>
+            <button class="btn" id="btn-portfolio">Portofolio</button>
+            <button class="btn ghost" id="btn-contact">Kontak</button>
+          </div>
+        </aside>
+
+        <!-- Isi CV -->
+        <section class="right">
+          <div class="headline">
+            <h1>Ringkasan Profesional</h1>
+            <div class="contact">Tapaktuan · ullyaikhwana22@gmail.com · 0822-1149-4743</div>
+          </div>
+
+          <div class="section">
+            <h3>Profil Singkat</h3>
+            <p class="meta">
+              Mahasiswa Program Studi Manajemen Informasi Kesehatan yang memiliki ketertarikan pada pengelolaan dan pengolahan data kesehatan, pencatatan serta pengarsipan rekam medis, pengkodean diagnosis menggunakan ICD-10, 
+              serta penerapan sistem informasi rumah sakit. Memahami dasar alur pelayanan kesehatan, pengelolaan dokumen rekam medis, dan pemanfaatan teknologi informasi di bidang kesehatan.
+            </p>
+          </div>
+
+          <div class="section">
+            <h3>Keahlian Utama</h3>
+            <div class="skills">
+              <span class="skill">Pemrosesan Rekam Layar</span>
+              <span class="skill">Manajemen Data Kesehatan</span>
+              <span class="skill">Sistem Informasi Rumah Sakit (SIMRS)</span>
+              <span class="skill">Microsoft Excel</span>
+              <span class="skill">Analisis Data Dasar</span>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Pengalaman / Praktik</h3>
+            <div class="timeline">
+              <div class="item">
+                <div class="year">2025</div>
+                <div class="desc">
+                  <strong>Praktik Rekam Medis</strong> · Instalasi Rekam Medis RS Membantu pendaftaran pasien, assembling, analisis kuantitatif &
+                  koding ICD-10.
+                </div>
+              </div>
+              <div class="item">
+                <div class="year">2024</div>
+                <div class="desc">
+                  <strong>Mengoperasikan SIMRS</strong> · Membuat laporan data kunjung pasien.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Pendidikan</h3>
+            <div class="timeline">
+              <div class="item">
+                <div class="year">2025 – Sekarang</div>
+                <div class="desc"><strong>D3 / S1 Manajemen Informasi Kesehatan</strong></div>
+              </div>
+            </div>
+          </div>
+
+          <footer>Institut Kesehatan Deli Husada @2025</footer>
+        </section>
+      </article>
+    </main>
+
+    <script>
+      document.getElementById("btn-download").onclick = () => window.print();
+      document.getElementById("btn-portfolio").onclick = () => window.open("#", "_blank");
+      document.getElementById("btn-contact").onclick = () => (window.location.href = "mailto:email@example.com");
+    </script>
+  </body>
+</html>
